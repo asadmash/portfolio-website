@@ -1,0 +1,34 @@
+#hamburgar {
+    position: absolute;
+    top: 3%;
+    right: 4%;
+    .bar {
+        width: 30px;
+        height: 3px;
+        background-color: #b3bbd2;
+        display: block;
+        margin: 5px;
+    }
+
+    @media(min-width: 630px) {
+        display: none;
+    }
+}
+
+.active {
+    background-color:  #24283b;
+    position: static;
+   z-index: 9999;
+   
+}
+
+.activex {
+    background-color:  #24283b;
+    // position: fixed;
+    z-index: 1;
+    top: 0px !important;
+    position: absolute;
+    // display: block !important;
+        //  display: flex !important;   
+            opacity: 1 !important;
+        }

@@ -1,0 +1,73 @@
+@import "./colors";
+
+#contact-section {
+  .contact-intro {
+    font-size: 1.6em;
+  }
+
+  .contact-links {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      color: $dim-font;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      border: 1px solid $link-circle;
+      margin: 30px 20px;
+      border-radius: 50%;
+      text-decoration: none;
+      padding: 12px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        width: 200px;
+        border-radius: 20px;
+        padding: 0px !important;
+      }
+      .ct-icon {
+        font-size: 30px;
+      }
+      .ct-name {
+        display: none;
+      }
+
+      @media (max-width: 500px) {
+        margin: 30px 5px;
+      }
+      
+    }
+
+    .active {
+      width: 200px;
+      border-radius: 50px;
+      justify-content: space-around;
+
+
+      .ct-name {
+        display: block !important;
+        font-size: 2em;
+        font-weight: 700;
+        height: auto;
+        width: 140px;
+        border-radius: 20px;
+        background: transparent;
+
+        @media (max-width: 455px) {
+          font-size: 1.5em;
+        }
+
+        @media(max-width: 400px) {
+          width: 65px;
+        }
+    }
+    
+    }
+  }
+}

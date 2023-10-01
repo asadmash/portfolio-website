@@ -1,0 +1,55 @@
+
+#service-section > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    max-width: 500px;
+    grid-gap: 20px;
+    justify-content: center;
+    @media(min-width: 768px){
+        grid-template-columns: repeat(2, 70%);
+    }
+    @media(min-width:1000px){
+        grid-template-columns: repeat(3, 60%);
+    }
+    @media(min-width:1168px){
+        grid-template-columns: repeat(3, 65%);
+        grid-gap: 30px;
+    }
+
+    .grid-item {
+        background-color:  #24283b;
+        padding: 50px 30px;
+    border-radius: 10px;
+    text-align: center;
+    
+
+    .iconbox-icon {
+        border: 1px solid $link-circle;
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+        border-radius: 50%;
+        padding: 20px 0;
+        background-color:  #1a1b26;
+        svg {
+            width: 52px;
+            height: 52px;
+        }
+    }
+    .iconbox-title {
+        font-size: 2.5em;
+        margin: 20px 0;
+    }
+
+    .iconbox-text{
+        font-size: 1.5em;
+        line-height: 22px;
+    }
+    }
+}
+
