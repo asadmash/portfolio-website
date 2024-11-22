@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        // create new custom color config
+       black:{
+        DEFAULT: '#000',
+        100: '#000319',
+       }
       },
     },
   },
