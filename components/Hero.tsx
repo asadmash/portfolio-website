@@ -2,6 +2,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
 // import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
@@ -37,8 +38,8 @@ const Hero = () => {
             Hi, I am asadMash, a next js developer.
           </p>
           {/* magic button */}
-          <a >
-            <MagicButton/>
+          <a href="#about">
+            <MagicButton title="Show Your Work" icon={<FaLocationArrow/>} position="right"/>
           </a>
         </div>
       </div>
