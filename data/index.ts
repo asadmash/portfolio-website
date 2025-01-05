@@ -173,29 +173,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Frontend Development Expertise",
+      desc: "With over three years of hands-on experience, I have developed responsive and visually engaging web interfaces using HTML, CSS, and JavaScript. I specialize in crafting user-friendly designs with Tailwind CSS and building dynamic components with React.js to enhance user interaction.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Real-World Project Implementation",
+      desc: "I have completed numerous real-world projects through platforms like Frontend Mentor, hosted on my GitHub. These include functional web applications and interactive interfaces, focusing on modern web development practices and attention to detail in design.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Version Control & Collaboration",
+      desc: "Proficient in Git and GitHub for version control, I effectively manage project repositories and collaborate seamlessly with teams. My workflows ensure smooth project iterations, bug fixes, and feature implementations while maintaining code integrity.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Freelance Frontend Developer",
+      desc: "Providing top-notch web development services on freelance marketplaces, I specialize in crafting responsive websites using React.js, Tailwind CSS, and JavaScript. I have successfully completed projects for clients worldwide, delivering quality solutions on time. My focus is on turning client ideas into functional and visually appealing web applications.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
