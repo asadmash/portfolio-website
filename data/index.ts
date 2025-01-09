@@ -112,35 +112,35 @@ export const navItems = [
        "Working with Mash was an absolute pleasure! His problem-solving skills are unmatched, and he delivered exactly what we needed—even under a tight deadline. Mash consistently went above and beyond, ensuring the project was perfect. Highly recommend his services!",
       name: "Emily R.",
       title: "Marketing Specialist",
-      profile: '/public/profile1.svg'
+      profile: '/profile1.svg'
     },
     {
       quote:
         "Mash's creativity and professionalism blew me away. He transformed my vague ideas into a stunning website that exceeded all expectations. His attention to detail and ability to communicate complex concepts in simple terms made the whole process seamless. I’ll definitely work with him again!",
       name: "James D.",
       title: "Entrepreneur",
-      profile: '/public/profile2.svg'
+      profile: '/profile2.svg'
     },
     {
       quote:
        "Mash was incredibly efficient and reliable throughout our project. He kept us updated every step of the way and delivered a polished product that our team absolutely loves. If you’re looking for someone you can trust to get the job done right, Mash is your guy!",
       name: "Sophia L.",
       title: "Project Manager",
-      profile: '/public/profile3.svg'
+      profile: '/profile3.svg'
     },
     {
       quote:
         "Mash is not only skilled but truly passionate about his work. His enthusiasm shines through in every detail. He created a responsive, user-friendly site for us that our clients keep complimenting. It was a fantastic experience collaborating with such a dedicated professional!",
       name: "Daniel K",
       title: "Small Business Owner",
-      profile: '/public/profile4.svg'
+      profile: '/profile4.svg'
     },
     {
       quote:
         "Mash didn’t just meet our expectations—he exceeded them! He brought innovative ideas to the table, communicated effectively, and delivered a product that aligned perfectly with our brand. I can’t wait to partner with him again on future projects!",
       name: " Olivia P.",
       title: "Creative Director",
-      profile: '/public/profile5.svg'
+      profile: '/profile5.svg'
     },
   ];
   
