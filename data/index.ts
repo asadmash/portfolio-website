@@ -109,33 +109,34 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+       "Working with Mash was an absolute pleasure! His problem-solving skills are unmatched, and he delivered exactly what we needed—even under a tight deadline. Mash consistently went above and beyond, ensuring the project was perfect. Highly recommend his services!",
+      name: "Emily R.",
+      title: "Marketing Specialist",
+      profile: 
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Mash's creativity and professionalism blew me away. He transformed my vague ideas into a stunning website that exceeded all expectations. His attention to detail and ability to communicate complex concepts in simple terms made the whole process seamless. I’ll definitely work with him again!",
+      name: "James D.",
+      title: "Entrepreneur",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+       "Mash was incredibly efficient and reliable throughout our project. He kept us updated every step of the way and delivered a polished product that our team absolutely loves. If you’re looking for someone you can trust to get the job done right, Mash is your guy!",
+      name: "Sophia L.",
+      title: "Project Manager",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Mash is not only skilled but truly passionate about his work. His enthusiasm shines through in every detail. He created a responsive, user-friendly site for us that our clients keep complimenting. It was a fantastic experience collaborating with such a dedicated professional!",
+      name: "Daniel K",
+      title: "Small Business Owner",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Mash didn’t just meet our expectations—he exceeded them! He brought innovative ideas to the table, communicated effectively, and delivered a product that aligned perfectly with our brand. I can’t wait to partner with him again on future projects!",
+      name: " Olivia P.",
+      title: "Creative Director",
     },
   ];
   
