@@ -85,6 +85,7 @@ export const navItems = [
       des: "A sleek and responsive e-commerce product page showcasing detailed product information, engaging visuals, and intuitive design for a seamless shopping experience.",
       img: "/p2.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      // iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       link: "asadmash.github.io/portfolio-projects/30.ecommerce-product-page/",
     },
     {
@@ -92,7 +93,8 @@ export const navItems = [
       title: "Easybank landing page",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p4.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "asadmash.github.io/portfolio-projects/32.easybank-landing-page/",
     },
     {
@@ -101,7 +103,8 @@ export const navItems = [
       title: "Clipboard landing page",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p3.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       link: "asadmash.github.io/portfolio-projects/27.clipboard-landing-page/",
     },
   ];
