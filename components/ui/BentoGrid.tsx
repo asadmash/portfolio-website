@@ -1,6 +1,6 @@
 "use client"; //because we have use 'useState'
 import { cn } from "@/lib/utils";
-import { BackgroundGradient, BackgroundGradientAnimation } from "./GradientBG";
+import {BackgroundGradientAnimation } from "./GradientBG";
 import { GlobeDemo } from "./GridGlobe";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
