@@ -1,6 +1,6 @@
 "use client"; //because we have use 'useState'
 import { cn } from "@/lib/utils";
-import {BackgroundGradientAnimation } from "./GradientBG";
+// import {BackgroundGradientAnimation } from "./GradientBG";
 import { GlobeDemo } from "./GridGlobe";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
@@ -107,9 +107,9 @@ export const BentoGridItem = ({
         </div>
         {/* for the 6th item */}
         {id === 6 && (
-          <BackgroundGradientAnimation>
+          // <BackgroundGradientAnimation>
+          // </BackgroundGradientAnimation>
             <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
-          </BackgroundGradientAnimation>
         )}
 
         <div
