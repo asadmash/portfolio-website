@@ -1,7 +1,13 @@
-import {withSentryConfig} from '@sentry/nextjs';
+// import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
+const nextConfig = {
+    reactStrictMode: true, // Optional, but recommended
+    swcMinify: true, // Optional, helps optimize Next.js
+    // You can add more Next.js configurations here if needed
+  };
+  
+  export default nextConfig;
+/*
 export default withSentryConfig(nextConfig, {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
@@ -41,3 +47,4 @@ disableLogger: true,
 // https://vercel.com/docs/cron-jobs
 automaticVercelMonitors: true,
 });
+*/

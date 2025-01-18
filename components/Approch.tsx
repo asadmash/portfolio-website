@@ -54,7 +54,7 @@ des="Once we agree on the plan, I cue my lofi playlist and dive into
     </section>
   );
 }
-
+export default Approch;
 const Card = ({
   title,
   icon,
@@ -134,4 +134,3 @@ export const Icon = ({ className, ...rest }: any) => {
 };
 
 
-export default Approch;
