@@ -105,7 +105,7 @@ export const navItems = [
       img: "/p3.png",
       // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "asadmash.github.io/portfolio-projects/27.clipboard-landing-page/",
+      link: "https://asadmash.github.io/portfolio-projects/27.clipboard-landing-page/",
     },
   ];
   
