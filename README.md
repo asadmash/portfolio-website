@@ -24,7 +24,11 @@ This project is powered by modern front-end technologies:
 - **Contact Form** – Users can reach out easily
 
 ## 📸 Screenshots
-![Portfolio Screenshot](public/Screenshot 2025-03-27 153115.png)
+![Portfolio Screenshot](screenshorts/screenshort-01.png)
+
+![](screenshorts/screenshort-02.png)
+
+![](screenshorts/screenshort-03.png)
 
 ---
 
