@@ -4,7 +4,7 @@ export const navItems = [
     { name: "Testimonials", link: "#testimonials" },
     { name: "Contact", link: "#contact" },
   ];
-  
+
   export const gridItems = [
     {
       id: 1,
@@ -78,7 +78,7 @@ export const navItems = [
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://iphone15-pro-apple.vercel.app",
     },
-   
+  //  project 2
     {
       id: 2,
       title: "E-commerce product page",
