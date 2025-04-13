@@ -2,6 +2,9 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./3d-pin";
 import { FaLocationArrow } from "react-icons/fa6";
+import MagicButton from "./MagicButton";
+import Link from "next/link";
+
 
 const RecentsProjects = () => {
   return (
@@ -53,6 +56,11 @@ const RecentsProjects = () => {
             </PinContainer>
           </div>
         ))}
+
+        {/* show more projects */}
+        <Link href="/works">
+            <MagicButton title="View all projects" icon={<FaLocationArrow/>} position="right"/>
+          </Link>
       </div>
     </div>
   );

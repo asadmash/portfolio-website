@@ -38,7 +38,7 @@ const Hero = () => {
             Hi, I am asadMash, a react js developer.
           </p>
           {/* magic button */}
-          <a href="#about">
+          <a href="#projects">
             <MagicButton title="Show Your Work" icon={<FaLocationArrow/>} position="right"/>
           </a>
         </div>
