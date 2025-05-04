@@ -108,6 +108,46 @@ export const navItems = [
       link: "https://asadmash.github.io/portfolio-projects/27.clipboard-landing-page/",
     },
   ];
+
+  // all projects to showcase in dedicated works page
+  export const allProjects = [
+    {
+      id: 1,
+      title: "Animated Apple Iphone 3D Website",
+      des: "Recreated the Apple iPhone 15 Pro Website, combining GSAP animations and Three.js 3D effects...",
+      img: "/p1.svg",
+      imgWidth: "100%",
+      iconsList: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://iphone15-pro-apple.vercel.app",
+    },
+
+    {
+      id: 2,
+      title: "E-commerce product page",
+      des: "A sleek and responsive e-commerce product page showcasing detailed product information, engaging visuals and inituitive design for a seamless shopping experience.",
+      img: "/p2.jpg",
+      imgWidth: "100%",
+      iconList: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      link: "https://asadmash.github.io/portfolio-projects/30.ecommerce-product-page/",
+    },
+    {
+      id: 3,
+      title: "Easybank landing page",
+      des: "A Real Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      img: "/p4.png",
+      imgWidth: "100px",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      link: "https//asadmash.github.io/portfolio-projects/32.easybank-landing-page/",
+    },
+    {id: 4,
+      title: "Clipboard landing page",
+      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      img: "/p3.png",
+      imgWidth: "100%",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      link: "https://asadmash.github.io/protfolio-projects/27.clipboard-landing-page/",
+    }
+  ];
   
   export const testimonials = [
     {
