@@ -117,7 +117,7 @@ export const navItems = [
       des: "Recreated the Apple iPhone 15 Pro Website, combining GSAP animations and Three.js 3D effects...",
       img: "/p1.svg",
       imgWidth: "100%",
-      iconsList: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://iphone15-pro-apple.vercel.app",
     },
 
@@ -127,7 +127,7 @@ export const navItems = [
       des: "A sleek and responsive e-commerce product page showcasing detailed product information, engaging visuals and inituitive design for a seamless shopping experience.",
       img: "/p2.jpg",
       imgWidth: "100%",
-      iconList: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://asadmash.github.io/portfolio-projects/30.ecommerce-product-page/",
     },
     {
