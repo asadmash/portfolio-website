@@ -146,6 +146,15 @@ export const navItems = [
       imgWidth: "100%",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       link: "https://asadmash.github.io/protfolio-projects/27.clipboard-landing-page/",
+    }, 
+    {
+      id: 5,
+      title: 'Bookmark landing page',
+      des:'A responsive landing page for a bookmark manager app with interactive tabs, FAQ accordion, and form validation. Built using HTML, CSS, and JavaScript.',
+      img: "/p5.jpg",
+      imgWidth: "100%",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+         link: "https://asadmash.github.io/protfolio-projects/27.clipboard-landing-page/",
     }
   ];
   

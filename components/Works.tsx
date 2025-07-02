@@ -11,7 +11,8 @@ import Image from "next/image";
 const Works = () => {
   // return the ui
   return (
-    <div className="py-20" id="works">
+    <div className="py-20" id="works"
+    >
       <h1 className="heading">
         A sophisticated collection of{" "}
         <span className="text-purple">my projects</span>
