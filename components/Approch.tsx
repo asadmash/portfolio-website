@@ -8,7 +8,7 @@ const Approch = () => {
   return (
     <section className="w-full py-20">
         <h1 className="heading">
-            My <span className="text-purple">approch</span>
+            My <span className="text-[#33beba]">approch</span>
         </h1>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card title="Planning and Strategy" icon={<AceternityIcon order="Phase 1"/>}

@@ -14,7 +14,7 @@ const RecentsProjects = () => {
     <div className="py-20" id="projects">
       <h1 className="heading">
         A small collection of{" "}
-        <span className="text-purple">recent projects</span>
+        <span className="text-[#33beba]">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
@@ -24,10 +24,10 @@ const RecentsProjects = () => {
           >
 
                  <PinContainer title={link} href={link}>
-          <BackgroundGradient  className="rounded-[18px] p-2 bg-white dark:bg-[#000319ce] ">
+          <BackgroundGradient  className="rounded-[18px] p-2 bg-white dark:bg-[#1c2129] ">
                              
               <div className="relative flex items-center justify-center  sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
+                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#1b1f2775]">
                   <Image src="/bg.png" alt="bg-img" width={100} height={100}/>
                 </div>
                 <img src={img} alt={title} className="z-10 absolute bottom-2 w-[320px] h-[230px] sm:w-[400px] sm:h-[280px] md:w-[420px] md:h-[280] lg:w-[465px] lg:h-[302px] rounded-t-lg bottom-r-20 transform rotate-3" />
