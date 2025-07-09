@@ -5,6 +5,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import {BackgroundBeamsWithCollision} from "./ui/Background-beams-with-collision";
+import { ContainerTextFlipDemo } from "./Container-text-fl";
 // import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
@@ -35,9 +36,11 @@ const Hero = () => {
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
               words="Transforming Concepts into Seamless User Experiences"
             />
-            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi, I am asadMash, a NEXT.JS developer.
-            </p>
+            <div className="min-h-32 w-screen flex items-center justify-center">
+
+              <ContainerTextFlipDemo/>
+            </div>
+            
             {/* magic button */}
             <a href="#projects">
               <MagicButton
