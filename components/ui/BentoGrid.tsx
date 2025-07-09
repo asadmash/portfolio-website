@@ -1,4 +1,4 @@
-"use client"; //because we have use 'useState'
+ //because we have use 'useState'
 import { cn } from "@/lib/utils";
 // import {BackgroundGradientAnimation } from "./GradientBG";
 import { GlobeDemo } from "./GridGlobe";

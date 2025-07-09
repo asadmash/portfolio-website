@@ -1,3 +1,4 @@
+// "use client";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -20,9 +21,9 @@ const Hero = () => {
         <Spotlight className="top-28 left-80 h-[80vh] w-[80vw]" fill="blue" />
       </div>
 {/* grid background */}
-      <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] absolute flex items-center justify-center top-0 left-0">
+      <div className="h-screen w-full dark:bg-[#15181e] bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] absolute flex items-center justify-center top-0 left-0">
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#15181e] bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
       {/* heading text */}
       <div className="flex justify-center relative my-20 z-10">

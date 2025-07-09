@@ -1,3 +1,4 @@
+// "use client";
 import React from "react";
 import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 import { companies, testimonials } from "@/data";
@@ -15,6 +16,7 @@ const Clients = () => {
           items={testimonials}
           direction="right"
           speed="slow"
+       
         />
         {/* companies */}
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10">

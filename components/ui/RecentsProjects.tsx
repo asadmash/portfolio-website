@@ -1,9 +1,12 @@
+// 'use client'
 import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./3d-pin";
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import Link from "next/link";
+import { BackgroundGradient } from "./Background-gradient";
+import Image from "next/image";
 
 
 const RecentsProjects = () => {
@@ -19,10 +22,13 @@ const RecentsProjects = () => {
             key={id}
             className=" sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
-            <PinContainer title={link} href={link}>
+
+                 <PinContainer title={link} href={link}>
+          <BackgroundGradient  className="rounded-[18px] p-2 bg-white dark:bg-[#000319ce] ">
+                             
               <div className="relative flex items-center justify-center  sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                  <Image src="/bg.png" alt="bg-img" width={100} height={100}/>
                 </div>
                 <img src={img} alt={title} className="z-10 absolute bottom-2 w-[320px] h-[230px] sm:w-[400px] sm:h-[280px] md:w-[420px] md:h-[280] lg:w-[465px] lg:h-[302px] rounded-t-lg bottom-r-20 transform rotate-3" />
               </div>
@@ -41,7 +47,7 @@ const RecentsProjects = () => {
                       className="border border-white/[0.2] rounded-full bg-back lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{ transform: `translateX(-${5 * index * 2}px)` }}
                     >
-                      <img src={icon} alt={icon} className="p-2" />
+                      <Image src={icon} alt={icon} className="p-2" width={100} height={100}/>
                     </div>
                   ))}
                 </div>
@@ -53,6 +59,8 @@ const RecentsProjects = () => {
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
+              
+           </BackgroundGradient>
             </PinContainer>
           </div>
         ))}

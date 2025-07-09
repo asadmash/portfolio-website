@@ -1,4 +1,5 @@
 // all the data of selected projects
+// "use client";
 import { allProjects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
@@ -27,9 +28,9 @@ const Works = () => {
             <PinContainer title={link} href={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="/bg.png" alt="bg-img" />
+                  <Image src="/bg.png" alt="bg-img" />
                 </div>
-                <img
+                <Image
                   src={img}
                   alt={title}
                   className="z-10 absolute bottom-2 w-[320px] h-[230px] sm:w-[400px] sm:h-[280px] md:w-[420px] md:-h[280] lg:w-[465px] lg:h-[302px] rounded-t-lg bottom-r-20 transform rotate-3"
