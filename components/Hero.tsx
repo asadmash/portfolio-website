@@ -40,13 +40,13 @@ const Hero = () => {
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
               words="Transforming Concepts into Seamless User Experiences"
             />
-            <div className="min-h-32 w-screen flex items-center justify-center">
+            <div className="max-h-[28] h-24 w-screen flex items-center justify-center">
 
               <ContainerTextFlipDemo/>
             </div>
             
             {/* magic button */}
-            <a href="#projects">
+            <a href="#projects" className="">
               <MagicButton
                 title="Show Your Work"
                 icon={<FaLocationArrow />}
