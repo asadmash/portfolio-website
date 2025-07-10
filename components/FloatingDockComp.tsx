@@ -15,28 +15,28 @@ import {
 
 export function FloatingDockComp() {
 
-   const [isFixed, setIsFixed] = useState(false);
+  //  const [isFixed, setIsFixed] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const hero = document.getElementById("hero");
-      if (!hero) return;
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const hero = document.getElementById("hero");
+  //     if (!hero) return;
 
-      const rect = hero.getBoundingClientRect();
+  //     const rect = hero.getBoundingClientRect();
 
-      // When hero is still partially in view
-      if (rect.bottom > window.innerHeight * 0.05) {
-        setIsFixed(false);
-      } else {
-        setIsFixed(true);
-      }
-    };
+  //     // When hero is still partially in view
+  //     if (rect.bottom > window.innerHeight * 0.05) {
+  //       setIsFixed(false);
+  //     } else {
+  //       setIsFixed(true);
+  //     }
+  //   };
 
-    handleScroll(); // run on load to avoid initial jump
+  //   handleScroll(); // run on load to avoid initial jump
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
 
   const links = [
     {
@@ -106,11 +106,7 @@ export function FloatingDockComp() {
     },
   ];
   return (
-    <div  className={`z-[5000] w-full flex items-center justify-center transition-all duration-300 ${
-        isFixed
-          ? "fixed top-[6%] left-0"
-          : "absolute bottom-[2%] left-0"
-      }`}>
+    <div  className={`z-[5000] w-full flex items-center justify-center transition-all duration-300 fixed bottom-[5px] left-0`}>
       <FloatingDock
         mobileClassName="translate-y-0" // only for demo, remove for production
         items={links}
