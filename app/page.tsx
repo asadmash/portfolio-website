@@ -10,11 +10,14 @@ import Hero from "@/components/Hero";
 import RecentsProjects from "@/components/ui/RecentsProjects";
 import { navItems } from "@/data";
 // import { FaHome } from "react-icons/fa";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const Home = () => {
   return (
     <main className="relative bg-[#15181e] flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 ">
+        <SpeedInsights/>
+        <Analytics/>
       <div className="max-w-7xl w-full">
       <FloatingDockComp/>
         {/* <FloatingNav navItems={navItems}/> */}
