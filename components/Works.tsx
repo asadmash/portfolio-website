@@ -34,7 +34,9 @@ const Works = () => {
                   src={img}
                   alt={title}
                   className="z-10 absolute bottom-2 w-[320px] h-[230px] sm:w-[400px] sm:h-[280px] md:w-[420px] md:-h[280] lg:w-[465px] lg:h-[302px] rounded-t-lg bottom-r-20 transform rotate-3"
+                  width={4}
                 />
+              
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
@@ -51,7 +53,7 @@ const Works = () => {
                       className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{ transform: `translateX(-${5 * index * 2}px)` }}
                     >
-                      <img src={icon} alt={icon} />
+                      <Image src={icon} alt={icon} width={8} height={8} />
                     </div>
                   ))}
                 </div>
