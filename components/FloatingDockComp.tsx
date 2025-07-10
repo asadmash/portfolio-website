@@ -8,7 +8,9 @@ import {
   IconHome,
   IconBrandPnpm,
   IconUserSearch,
-  IconCircuitCellPlus
+  IconCircuitCellPlus,
+  IconBrandLinkedin,
+  IconMail
 } from "@tabler/icons-react";
 
 export function FloatingDockComp() {
@@ -67,7 +69,7 @@ export function FloatingDockComp() {
       href: "#",
     },
     {
-      title: "Changelog",
+      title: "Experiences",
       icon: (
         <IconFileCv className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
@@ -88,6 +90,20 @@ export function FloatingDockComp() {
       ),
       href: "#",
     },
+    {
+      title: "LinkedIn",
+      icon: (
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
+    {
+      title: "Gmail",
+      icon: (
+        <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
   ];
   return (
     <div  className={`z-[5000] w-full flex items-center justify-center transition-all duration-300 ${
@@ -96,7 +112,7 @@ export function FloatingDockComp() {
           : "absolute bottom-[2%] left-0"
       }`}>
       <FloatingDock
-        mobileClassName="translate-y-20" // only for demo, remove for production
+        mobileClassName="translate-y-0" // only for demo, remove for production
         items={links}
       />
     </div>
