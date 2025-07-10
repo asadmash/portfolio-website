@@ -128,7 +128,7 @@ export const navItems = [
       img: "/p2.jpg",
       imgWidth: "100%",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://asadmash.github.io/portfolio-projects/30.ecommerce-product-page/",
+      link: "#",
     },
     {
       id: 3,
@@ -137,7 +137,7 @@ export const navItems = [
       img: "/p4.png",
       imgWidth: "100px",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https//asadmash.github.io/portfolio-projects/32.easybank-landing-page/",
+      link: "#",
     },
     {id: 4,
       title: "Clipboard landing page",
@@ -145,7 +145,7 @@ export const navItems = [
       img: "/p3.png",
       imgWidth: "100%",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://asadmash.github.io/protfolio-projects/27.clipboard-landing-page/",
+      link: "#",
     }, 
     {
       id: 5,
@@ -154,7 +154,7 @@ export const navItems = [
       img: "/p5.jpg",
       imgWidth: "100%",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-         link: "https://asadmash.github.io/protfolio-projects/27.clipboard-landing-page/",
+         link: "#",
     }
   ];
   
