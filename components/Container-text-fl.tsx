@@ -19,7 +19,7 @@ export function ContainerTextFlipDemo() {
       layout
     >
       <div className="inline">
-        Hi, I am asadMash, a <ContainerTextFlip words={words} />
+        Hi, I am Asad, a <ContainerTextFlip words={words} />
         
         {/* <Blips /> */}
       </div>
