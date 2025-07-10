@@ -86,7 +86,7 @@ export const navItems = [
       img: "/p2.jpg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       // iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://asadmash.github.io/portfolio-projects/30.ecommerce-product-page/",
+      link: "#",
     },
     {
       id: 3,
@@ -95,7 +95,7 @@ export const navItems = [
       img: "/p4.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
       // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://asadmash.github.io/portfolio-projects/32.easybank-landing-page/",
+      link: "#",
     },
     {
       
@@ -105,7 +105,7 @@ export const navItems = [
       img: "/p3.png",
       // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://asadmash.github.io/portfolio-projects/27.clipboard-landing-page/",
+      link: "#",
     },
   ];
 
