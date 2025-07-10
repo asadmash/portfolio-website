@@ -128,7 +128,7 @@ export const navItems = [
       img: "/p2.jpg",
       imgWidth: "100%",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "#",
+      link: "##",
     },
     {
       id: 3,
