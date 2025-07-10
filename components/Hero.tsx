@@ -6,6 +6,7 @@ import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import {BackgroundBeamsWithCollision} from "./ui/Background-beams-with-collision";
 import { ContainerTextFlipDemo } from "./Container-text-fl";
+import { FloatingDockComp } from "./FloatingDockComp";
 // import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
@@ -22,7 +23,10 @@ const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[80vw]" fill="blue" />
       </div> */}
-       <div className="h-screen w-full flex items-center justify-center">
+       <div className="h-screen w-full flex items-center justify-center" id="hero" >
+       <div className="relative h-full">
+         <FloatingDockComp/>
+       </div>
      <BackgroundBeamsWithCollision className="h-screen w-full">
         {/* grid background */}
        
