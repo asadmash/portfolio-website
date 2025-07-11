@@ -31,7 +31,7 @@ export const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[80vw]" fill="blue" />
       </div> */}
-       <section className="h-screen w-full flex items-center justify-center" id="hero">
+       <section className="h-screen min-w-8xl w-full flex items-center justify-center" id="hero">
        <header className="relative h-full">
          <FloatingDockComp/>
        </header>
@@ -40,7 +40,7 @@ export const Hero = () => {
        
           {/* heading text */}
          <div className="flex justify-center relative my-20 z-10">
-          <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[95vw] flex flex-col items-center justify-center">
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
               Dynamic web magic with next.js
             </h2>
@@ -48,7 +48,7 @@ export const Hero = () => {
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
               words="Transforming Concepts into Seamless User Experiences"
             /> */}
-            <h1 className="text-center text-2xl font-bold md:text-3xl xl:text-6xl my-4">Transforming Concepts into Seamless <br /><span className="text-[#33beba]">User Experiences</span></h1>
+            <h1 className="text-center text-2xl font-bold md:text-3xl xl:text-6xl my-6 tracking-wide leading-snug [word-spacing:-0.3em]  font-jetbrains">Transforming Concepts into Seamless <br /><span className="text-[#33beba]">User Experiences</span></h1>
             <div className="max-h-[28] h-24 w-screen flex items-center justify-center">
 
               <ContainerTextFlipDemo/>

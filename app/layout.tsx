@@ -14,6 +14,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const jetbrainsMono = localFont({
+  src: "./fonts/JetBrainsMono-Bold.ttf",
+  variable: "--font-jetbrains-mono",
+  weight: "900",
+})
 
 export const metadata: Metadata = {
   title: "asadMash's portfolio",
@@ -28,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en"  suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${jetbrainsMono.variable} antialiased`}
       >
       
        <ThemeProvider

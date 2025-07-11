@@ -26,6 +26,10 @@ const config = {
       },
     },
     extend: {
+       fontFamily: {
+        jetbrains: ['var(--font-jetbrains-mono)', 'monospace'],
+      },
+
       colors: {
         black: {
           DEFAULT: "#000",

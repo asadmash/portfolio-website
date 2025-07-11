@@ -15,13 +15,14 @@ import { Analytics } from "@vercel/analytics/next";
 
 const Home = () => {
   return (
-    <main className="relative bg-[#15181e] flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 ">
+    <main className="relative bg-[#15181e] flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-2 ">
         <SpeedInsights/>
         <Analytics/>
+               <Hero/>
       <div className="max-w-7xl w-full">
       <FloatingDockComp/>
         {/* <FloatingNav navItems={navItems}/> */}
-        <Hero/>
+ 
       {/* <Grid/> */}
       <RecentsProjects/>
       <Clients/>
