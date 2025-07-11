@@ -2,7 +2,7 @@
 // "use client";
 import { allProjects } from "@/data";
 import React from "react";
-import { PinContainer } from "./ui/3d-pin";
+// import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
@@ -25,7 +25,7 @@ const Works = () => {
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
-            <PinContainer title={link} href={link}>
+            {/* <PinContainer title={link} href={link}> */}
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <Image src="/bg.png" alt="bg-img" />
@@ -58,7 +58,7 @@ const Works = () => {
                   ))}
                 </div>
               </div>
-            </PinContainer>
+            {/* </PinContainer> */}
           </div>
         ))}
       </div>
