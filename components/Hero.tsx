@@ -23,10 +23,10 @@ const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[80vw]" fill="blue" />
       </div> */}
-       <div className="h-screen w-full flex items-center justify-center" id="hero" >
-       <div className="relative h-full">
+       <section className="h-screen w-full flex items-center justify-center" id="hero" >
+       <header className="relative h-full">
          <FloatingDockComp/>
-       </div>
+       </header>
      <BackgroundBeamsWithCollision className="h-screen w-full">
         {/* grid background */}
        
@@ -56,7 +56,7 @@ const Hero = () => {
           </div>
         </div>
      </BackgroundBeamsWithCollision>
-      </div>
+      </section>
     </>
   );
 };
