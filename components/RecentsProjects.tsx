@@ -8,7 +8,6 @@ import Link from "next/link";
 import { BackgroundGradient } from "./ui/Background-gradient";
 import Image from "next/image";
 
-
 export const RecentsProjects = () => {
   return (
     <div className="py-20" id="projects">
@@ -20,60 +19,75 @@ export const RecentsProjects = () => {
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
-           
             className=" sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
             <Link href={link}>
-            
-      
-
-                 {/* <PinContainer title={link} href={link}> */}
-          <BackgroundGradient  className="rounded-[18px] p-2 bg-white dark:bg-[#1c2129] ">
-                             
-              <div className="relative flex items-center justify-center  sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#1b1f2775]">
-                  <Image src="/bg.png" alt="bg-img" width={100} height={100}/>
+              {/* <PinContainer title={link} href={link}> */}
+              <BackgroundGradient className="rounded-[18px] p-4 bg-white dark:bg-[#1c2129] ">
+                <div className="relative flex items-center justify-center  sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
+                  <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#1b1f2775]">
+                    <Image
+                      src="/bg.png"
+                      alt="bg-img"
+                      width={100}
+                      height={100}
+                    />
+                  </div>
+                  <Image
+                    src={img}
+                    alt={title}
+                    className="z-10 absolute bottom-2 w-[320px] h-[230px] sm:w-[400px] sm:h-[280px] md:w-[420px] md:h-[280] lg:w-[465px] lg:h-[302px] rounded-t-lg bottom-r-20 transform rotate-3"
+                    width={320}
+                    height={320}
+                  />
                 </div>
-                <img src={img} alt={title} className="z-10 absolute bottom-2 w-[320px] h-[230px] sm:w-[400px] sm:h-[280px] md:w-[420px] md:h-[280] lg:w-[465px] lg:h-[302px] rounded-t-lg bottom-r-20 transform rotate-3" />
-              </div>
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {title}
-              </h1>
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
-                {des}
-              </p>
+                <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                  {title}
+                </h1>
+                <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+                  {des}
+                </p>
 
-              <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
-                  {iconLists.map((icon, index) => (
-                    <div
-                      key={icon}
-                      className="border border-white/[0.2] rounded-full bg-back lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{ transform: `translateX(-${5 * index * 2}px)` }}
-                    >
-                      <Image src={icon} alt={icon} className="p-2" width={100} height={100}/>
-                    </div>
-                  ))}
-                </div>
+                <div className="flex items-center justify-between mt-7 mb-3">
+                  <div className="flex items-center">
+                    {iconLists.map((icon, index) => (
+                      <div
+                        key={icon}
+                        className="border border-white/[0.2] rounded-full bg-back lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                        style={{ transform: `translateX(-${5 * index * 2}px)` }}
+                      >
+                        <Image
+                          src={icon}
+                          alt={icon}
+                          className="p-2"
+                          width={100}
+                          height={100}
+                        />
+                      </div>
+                    ))}
+                  </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <div className="flex justify-center items-center">
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      Check Live Site
+                    </p>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </div>
                 </div>
-              </div>
-              
-           </BackgroundGradient>
-            {/* </PinContainer> */}
-                  </Link>
+              </BackgroundGradient>
+              {/* </PinContainer> */}
+            </Link>
           </div>
         ))}
 
         {/* show more projects */}
         <Link href="/works">
-            <MagicButton title="View all projects" icon={<FaLocationArrow/>} position="right"/>
-          </Link>
+          <MagicButton
+            title="View all projects"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </Link>
       </div>
     </div>
   );
