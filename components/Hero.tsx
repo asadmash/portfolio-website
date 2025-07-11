@@ -31,7 +31,7 @@ export const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[80vw]" fill="blue" />
       </div> */}
-       <section className="h-screen w-full flex items-center justify-center" id="hero" >
+       <section className="h-screen w-full flex items-center justify-center" id="hero">
        <header className="relative h-full">
          <FloatingDockComp/>
        </header>
@@ -48,6 +48,7 @@ export const Hero = () => {
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
               words="Transforming Concepts into Seamless User Experiences"
             /> */}
+            <h1 className="text-center text-2xl font-bold md:text-3xl xl:text-6xl my-4">Transforming Concepts into Seamless <br /><span className="text-[#33beba]">User Experiences</span></h1>
             <div className="max-h-[28] h-24 w-screen flex items-center justify-center">
 
               <ContainerTextFlipDemo/>
