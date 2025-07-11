@@ -1,10 +1,10 @@
-// "use client";
+"use client";
 import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 
-const Approch = () => {
+export const Approch = () => {
   return (
     <section className="w-full py-20">
         <h1 className="heading">
@@ -54,7 +54,7 @@ des="Once we agree on the plan, I cue my lofi playlist and dive into
     </section>
   );
 }
-export default Approch;
+// export default Approch;
 const Card = ({
   title,
   icon,

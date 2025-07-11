@@ -1,15 +1,15 @@
 // 'use client'
 import { projects } from "@/data";
 import React from "react";
-import { PinContainer } from "./3d-pin";
+import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa6";
-import MagicButton from "./MagicButton";
+import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
-import { BackgroundGradient } from "./Background-gradient";
+import { BackgroundGradient } from "./ui/Background-gradient";
 import Image from "next/image";
 
 
-const RecentsProjects = () => {
+export const RecentsProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
@@ -74,4 +74,4 @@ const RecentsProjects = () => {
   );
 };
 
-export default RecentsProjects;
+// export default RecentsProjects;

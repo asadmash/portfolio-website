@@ -1,15 +1,23 @@
 // "use client";
 import React from "react";
 // import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+
+
+// const TextGenerateEffect = dynamic(() => import('@/components/ui/TextGenerateEffect'), {
+//   ssr: false, // forces client-side loading
+// });
+
+
+
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import {BackgroundBeamsWithCollision} from "./ui/Background-beams-with-collision";
 import { ContainerTextFlipDemo } from "./Container-text-fl";
 import { FloatingDockComp } from "./FloatingDockComp";
+import dynamic from "next/dynamic";
 // import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <>
       {/* <div className="pb-20 pt-36">
@@ -36,10 +44,10 @@ const Hero = () => {
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
               Dynamic web magic with next.js
             </h2>
-            <TextGenerateEffect
+            {/* <TextGenerateEffect
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
               words="Transforming Concepts into Seamless User Experiences"
-            />
+            /> */}
             <div className="max-h-[28] h-24 w-screen flex items-center justify-center">
 
               <ContainerTextFlipDemo/>
@@ -61,4 +69,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+// export default Hero;

@@ -5,7 +5,7 @@ import { FaLocationArrow } from 'react-icons/fa6'
 import { socialMedia } from '@/data'
 import Image from 'next/image'
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className='w-full pt-20 pb-10' id='contact'>
 <div className='w-full absolute left-0 -bottom-72 min-h-96'>
@@ -42,4 +42,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+// export default Footer

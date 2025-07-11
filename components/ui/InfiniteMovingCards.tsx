@@ -1,4 +1,4 @@
-
+"use client";
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 
@@ -25,7 +25,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  },);
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
