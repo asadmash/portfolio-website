@@ -11,10 +11,10 @@ import Image from "next/image";
 export const RecentsProjects = () => {
   return (
     <div className="py-20" id="projects">
-      <h1 className="heading">
+      <p className="heading !text-3xl md:!text-5xl">
         A small collection of{" "}
         <span className="text-[#33beba]">recent projects</span>
-      </h1>
+      </p>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
