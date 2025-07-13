@@ -44,7 +44,7 @@ export function FloatingDockComp() {
       icon: (
         <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "#home",
     },
 
     {
@@ -52,28 +52,28 @@ export function FloatingDockComp() {
       icon: (
         <IconUserSearch className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "#about",
     },
     {
       title: "Projects",
       icon: (
         <IconBrandPnpm className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "#projects",
     },
     {
       title: "Testimonials",
       icon: (
         <IconCircuitCellPlus className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "#reviews",
     },
     {
       title: "Experiences",
       icon: (
         <IconFileCv className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "#experiences",
     },
 
     {
@@ -88,7 +88,7 @@ export function FloatingDockComp() {
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/asadmash",
     },
     {
       title: "LinkedIn",
@@ -102,7 +102,7 @@ export function FloatingDockComp() {
       icon: (
         <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "#contact",
     },
   ];
   return (

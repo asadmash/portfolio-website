@@ -31,7 +31,7 @@ export const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[80vw]" fill="blue" />
       </div> */}
-       <section className="h-screen min-w-8xl w-full flex items-center justify-center" id="hero">
+       <section className="h-screen min-w-8xl w-full flex items-center justify-center" id="home">
        <header className="relative h-full">
          <FloatingDockComp/>
        </header>
