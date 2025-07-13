@@ -23,7 +23,7 @@ const Aboutme = () => {
         </aside>
         <aside className="right flex-1">
           <p
-            className={`text-[18px] text-justify leading-tight text-white-100 font-semibold`}
+            className={`text-[18px] xl:text-[22px]  h-full justify-center text-justify leading-tight text-[#fff] font-semibold sm:mt-5`}
           >
             <span className={`${
               expanded
