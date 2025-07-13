@@ -12,6 +12,7 @@ import { navItems } from "@/data";
 // import { FaHome } from "react-icons/fa";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import Aboutme from "@/components/Aboutme";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         {/* <FloatingNav navItems={navItems}/> */}
  
       {/* <Grid/> */}
+      <Aboutme />
       <RecentsProjects/>
       <Clients/>
       <Experience/>
