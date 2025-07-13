@@ -48,7 +48,7 @@ export const Hero = () => {
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
               words="Transforming Concepts into Seamless User Experiences"
             /> */}
-            <h1 className="text-center text-2xl font-bold md:text-3xl xl:text-6xl my-6 xl:my-10 tracking-wide leading-snug [word-spacing:-0.3em]  font-jetbrains">Transforming Concepts into Seamless <br /><span className="text-[#33beba]">User Experiences</span></h1>
+            <h1 className="text-center text-2xl font-bold md:text-3xl xl:text-6xl my-6 xl:my-10 tracking-wide leading-snug [word-spacing:-0.3em]  font-jetbrains">Transforming Concepts into Seamless <br /><span className="text-[#ffe868]">User Experiences</span></h1>
             <div className="max-h-[28] h-24 w-screen flex items-center justify-center">
 
               <ContainerTextFlipDemo/>

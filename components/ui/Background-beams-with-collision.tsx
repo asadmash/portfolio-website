@@ -104,9 +104,9 @@ export const BackgroundBeamsWithCollision = ({
     <div
       ref={parentRef}
       className={cn(
-        "h-screen  bg-gradient-to-b from-white to-neutral-100 dark:from-[#243a3a] dark:to-[#15181e] flex items-center w-screen absolute top-0 left-0 justify-center overflow-hidden",
+        "h-screen  bg-gradient-to-b from-white to-neutral-100 dark:from-[#6088BB] dark:to-[#FFA36C] flex items-center w-screen absolute top-0 left-0 justify-center overflow-hidden",
         // h-screen if you want bigger
-        className
+        className='z-10'
       )}
     >
       {beams.map((beam) => (
@@ -146,7 +146,7 @@ export const BackgroundBeamsWithCollision = ({
       {/* 3rd one */}
       {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="absolute left-0 bottom-0 h-[60vh]"><path fill="#33beba" fill-opacity="0.6" d="M0,128L17.1,144C34.3,160,69,192,103,176C137.1,160,171,96,206,64C240,32,274,32,309,69.3C342.9,107,377,181,411,192C445.7,203,480,149,514,122.7C548.6,96,583,96,617,117.3C651.4,139,686,181,720,202.7C754.3,224,789,224,823,192C857.1,160,891,96,926,58.7C960,21,994,11,1029,53.3C1062.9,96,1097,192,1131,202.7C1165.7,213,1200,139,1234,117.3C1268.6,96,1303,128,1337,170.7C1371.4,213,1406,267,1423,293.3L1440,320L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z"></path></svg> */}
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="absolute left-0 bottom-0 h-[50vh]" ><path fill="#33beba" fill-opacity="0.6" d="M0,224L60,186.7C120,149,240,75,360,69.3C480,64,600,128,720,170.7C840,213,960,235,1080,208C1200,181,1320,107,1380,69.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="absolute left-0 bottom-0 h-[50vh] -z-10" ><path fill="#3D74B6" fill-opacity="1" d="M0,224L60,186.7C120,149,240,75,360,69.3C480,64,600,128,720,170.7C840,213,960,235,1080,208C1200,181,1320,107,1380,69.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </div>
   );
 };
@@ -254,7 +254,7 @@ const CollisionMechanism = React.forwardRef<
           repeatDelay: beamOptions.repeatDelay || 0,
         }}
         className={cn(
-          "absolute left-0 top-20 m-auto h-14 w-px rounded-full bg-gradient-to-t from-[#d1b121] via-[#e43111b2] to-transparent",
+          "absolute left-0 top-20 m-auto h-14 w-px rounded-full bg-gradient-to-t from-[#24b893] via-[#42ac65] to-transparent",
           beamOptions.className
         )}
       />

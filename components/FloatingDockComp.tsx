@@ -106,7 +106,7 @@ export function FloatingDockComp() {
     },
   ];
   return (
-    <div  className={`z-[5000] w-full flex items-center justify-center transition-all duration-300 fixed bottom-[5px] left-0`}>
+    <div  className={` w-full flex items-center justify-center transition-all duration-300 fixed bottom-[5px] left-0 z-50`}>
       <FloatingDock
         mobileClassName="translate-y-0" // only for demo, remove for production
         items={links}

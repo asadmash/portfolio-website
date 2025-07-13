@@ -6,8 +6,12 @@ import Image from "next/image";
 
 export const Experience = () => {
   return (
-    <section className="py-20" id="experiences">
-      <h1 className="heading">
+    <section className="py-20 z-10 relative w-screen" id="experiences">
+       <span className="absolute -z-10 left-0 top-0  w-full">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" ><path fill="#7459DC" fill-opacity="1" d="M0,224L120,240C240,256,480,288,720,288C960,288,1200,256,1320,240L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+      </span>
+      <div className="container">
+        <h1 className="heading">
         My
         <span className="text-[#33beba]"> work experience</span>
       </h1>
@@ -39,6 +43,10 @@ export const Experience = () => {
           </Button>
         ))}
       </div>
+      </div>
+      <span className="absolute -z-10 left-0 bottom-0  w-full">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F05A7E" fill-opacity="1" d="M0,224L120,240C240,256,480,288,720,288C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+      </span>
     </section>
   );
 };

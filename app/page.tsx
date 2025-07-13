@@ -16,22 +16,22 @@ import Aboutme from "@/components/Aboutme";
 
 const Home = () => {
   return (
-    <main className="relative w-screen bg-[#15181e] flex justify-center items-center flex-col overflow-hidden ">
+    <main className="relative w-screen bg-[#15181e] flex justify-center items-center flex-col overflow-hidden">
       {/* mx-auto sm:px-10 px-2 */}
       <SpeedInsights />
       <Analytics />
       <Hero />
       <Aboutme />
-      <div className="max-w-7xl w-full">
-        <FloatingDockComp />
-        {/* <FloatingNav navItems={navItems}/> */}
-
-        {/* <Grid/> */}
         <RecentsProjects />
         <Clients />
         <Experience />
         <Approch />
         <Footer />
+      <div className="max-w-7xl w-full">
+        <FloatingDockComp />
+        {/* <FloatingNav navItems={navItems}/> */}
+
+        {/* <Grid/> */}
       </div>
     </main>
   );

@@ -6,8 +6,12 @@ import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 
 export const Approch = () => {
   return (
-    <section className="w-full py-20">
-        <h1 className="heading">
+    <section className=" py-20  z-10 relative w-screen">
+      <span className="absolute -z-10 left-0 top-0  w-full">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F05A7E" fill-opacity="1" d="M0,160L80,138.7C160,117,320,75,480,85.3C640,96,800,160,960,208C1120,256,1280,288,1360,304L1440,320L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+      </span>
+       <div className="container">
+         <h1 className="heading">
             My <span className="text-[#33beba]">approch</span>
         </h1>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center gap-4">
@@ -51,6 +55,10 @@ des="Once we agree on the plan, I cue my lofi playlist and dive into
           />
         </Card>
       </div>
+       </div>
+       {/* <span className="absolute -z-40 left-0 bottom-0  w-full">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D74B6" fill-opacity=".2" d="M0,160L80,138.7C160,117,320,75,480,85.3C640,96,800,160,960,208C1120,256,1280,288,1360,304L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+      </span> */}
     </section>
   );
 }

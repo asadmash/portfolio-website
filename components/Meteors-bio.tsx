@@ -19,23 +19,23 @@ export function MeteorsDemo() {
             <span className={`${
               expanded
                 ? ""
-                : "line-clamp-[14] md:line-clamp-[20] lg:line-clamp-[22]"
+                : "line-clamp-[14] md:line-clamp-[20] lg:line-clamp-none"
             } transition-all`}>
               I’m a self-taught Front-End Web Developer with a Diploma in
             Engineering and a strong background in HTML, CSS, JavaScript,
-            React.js, Next.js, and Tailwind CSS. What started as a personal
+            React.js, Next.js, and Tailwind CSS. <br />What started as a personal
             curiosity quickly turned into a daily practice of learning,
-            building, and refining real-world web applications. Over the past
+            building, and refining real-world web applications. <br />Over the past
             few years, I’ve focused on mastering modern front-end technologies
             by working on hands-on projects—from responsive landing pages to
             dynamic, component-based apps. My approach has always been
             practical: learn something new, apply it immediately, and iterate
-            until it works well and looks clean. I enjoy turning complex UI
+            until it works well and looks clean. <br />I enjoy turning complex UI
             designs into functional, responsive experiences and writing code
             that’s maintainable and purposeful. Along the way, I’ve developed a
             strong sense of ownership, attention to detail, and the ability to
             work independently and adapt quickly—skills that I know are valuable
-            in professional, fast-moving environments. I’m currently looking to
+            in professional, fast-moving environments. <br />I’m currently looking to
             join a team where I can build real products, grow with experienced
             developers, and contribute to meaningful work that reaches users and
             makes an impact.
