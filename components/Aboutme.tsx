@@ -1,62 +1,29 @@
-"use client";
+
 import Image from "next/image";
-import React, { useState } from "react";
+import { MeteorsDemo } from "./Meteors-bio";
+
 
 const Aboutme = () => {
-  // bio text expend or not expend
-  const [expanded, setExpanded] = useState(false);
+
 
   return (
-    <section className="about heading mt-5">
+    <section className="about heading mt-5 mb-5 relative">
       <h1>
         About <span className="text-[#33beba]">Myself</span>
       </h1>
-      <div className="flex flex-col md:flex-row py-10 px-5 gap-6">
-        <aside className="left flex-1 rounded-lg ">
+      <div className="flex flex-col md:flex-row py-0 px-5 gap-6 md:gap-10 xl:gap-14 w-full md:h-[80vh] mt-10">
+        <aside className="left flex-1 rounded-lg h-full">
           <Image
             src="/myImg2.jpg"
             alt="profile"
-            width={600}
-            height={1000}
-            className="overflow-hidden rounded-xl"
+            width={800}
+          height={800}
+           objectFit="cover"
+            className="overflow-hidden rounded-xl w-full h-full object-cover"
           />
         </aside>
-        <aside className="right flex-1">
-          <p
-            className={`text-[18px] xl:text-[22px]  h-full justify-center text-justify leading-tight text-[#fff] font-semibold sm:mt-5`}
-          >
-            <span className={`${
-              expanded
-                ? ""
-                : "line-clamp-[14] md:line-clamp-[20] lg:line-clamp-[24]"
-            } transition-all`}>
-              I’m a self-taught Front-End Web Developer with a Diploma in
-            Engineering and a strong background in HTML, CSS, JavaScript,
-            React.js, Next.js, and Tailwind CSS. What started as a personal
-            curiosity quickly turned into a daily practice of learning,
-            building, and refining real-world web applications. Over the past
-            few years, I’ve focused on mastering modern front-end technologies
-            by working on hands-on projects—from responsive landing pages to
-            dynamic, component-based apps. My approach has always been
-            practical: learn something new, apply it immediately, and iterate
-            until it works well and looks clean. I enjoy turning complex UI
-            designs into functional, responsive experiences and writing code
-            that’s maintainable and purposeful. Along the way, I’ve developed a
-            strong sense of ownership, attention to detail, and the ability to
-            work independently and adapt quickly—skills that I know are valuable
-            in professional, fast-moving environments. I’m currently looking to
-            join a team where I can build real products, grow with experienced
-            developers, and contribute to meaningful work that reaches users and
-            makes an impact.
-            </span>
-            <span
-              onClick={() => setExpanded(!expanded)}
-              className="text-blue-600 hover:underline lg:hidden inline text-[18px]"
-            >
-              {expanded ? " Show less" : " Read more"}
-            </span>
-          </p>
-
+        <aside className="right flex-1 md:h-[80vh]">
+         <MeteorsDemo />
           {/* Show button only on small screens */}
         </aside>
       </div>{" "}
