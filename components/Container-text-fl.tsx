@@ -14,12 +14,12 @@ export function ContainerTextFlipDemo() {
         opacity: 1,
       }}
       className={cn(
-        "relative mb-6 max-w-4xl text-center text-lg leading-normal font-bold tracking-tight text-zinc-700 md:text-4xl dark:text-zinc-100",
+        "relative mb-6 max-w-4xl text-center text-xl leading-normal font-nunitoBold tracking-tight text-zinc-700 md:text-4xl dark:text-zinc-100",
       )}
       layout
     >
       <div className="inline">
-        Hi, I am Asad, a <ContainerTextFlip words={words} />
+        I am Asad, a <span className="inline sm:hidden"><br/></span> <ContainerTextFlip words={words} />
         
         {/* <Blips /> */}
       </div>

@@ -19,17 +19,17 @@ const jetbrainsMono = localFont({
   variable: "--font-jetbrains-mono",
   weight: "900",
 })
-const NunitoBold = localFont({
+const nunitoBold = localFont({
   src: "./fonts/Nunito-Bold.ttf",
-  variable: "--nunito-bold",
+  variable: "--nunito-Bold",
   weight: "900",
 })
-const NunitoRegular = localFont({
+const nunitoRegular = localFont({
   src: "./fonts/Nunito-Regular.ttf",
   variable: "--nunito-regular",
-  weight: "400",
+  weight: "200",
 })
-const LoraRegular = localFont({
+const loraRegular = localFont({
   src: "./fonts/Lora-Regular.ttf",
   variable: "--lora-regular",
   weight: "400",
@@ -48,7 +48,10 @@ export default function RootLayout({
   return (
     <html lang="en"  suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${jetbrainsMono.variable} antialiased`}
+        className={`${nunitoBold.variable}
+        ${nunitoRegular.variable}
+        ${loraRegular.variable}
+         antialiased`}
       >
       
        <ThemeProvider

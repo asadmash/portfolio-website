@@ -9,8 +9,8 @@ const Aboutme = () => {
       <span className="absolute left-0 -top-1 h-[50vh] -z-10 right-0">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D74B6" fill-opacity="1" d="M0,224L60,186.7C120,149,240,75,360,69.3C480,64,600,128,720,170.7C840,213,960,235,1080,208C1200,181,1320,107,1380,69.3L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
       </span>
-      <div className="container mt-0 h-full">
-        <h1 className="!text-3xl md:!text-4xl lg:!text-5xl">
+      <div className="container mt-0 h-full font-nunitoRegular font-light">
+        <h1 className="!text-3xl md:!text-4xl lg:!text-5xl font-nunitoBold font-bold">
           About <span className="text-[#fe7743]">Myself</span>
         </h1>
         <div className="flex flex-col md:flex-row py-0 px-5 gap-6 md:gap-15 xl:gap-20 w-full justify-between md:h-[80vh] mt-10">

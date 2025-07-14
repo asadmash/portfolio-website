@@ -14,13 +14,13 @@ export function MeteorsDemo() {
 
 
            <p
-            className={`text-[18px] xl:text-[20px]  h-full justify-center text-justify leading-tight text-[#fff] font-semibold sm:p-4`}
+            className={`text-[18px] xl:text-[20px]  h-full justify-center text-justify leading-tight text-[#fff] font-light sm:p-4`}
           >
             <span className={`${
               expanded
                 ? ""
                 : "line-clamp-[14] md:line-clamp-[20] lg:line-clamp-none"
-            } transition-all`}>
+            } transition-all  `}>
               I’m a self-taught Front-End Web Developer with a Diploma in
             Engineering and a strong background in HTML, CSS, JavaScript,
             React.js, Next.js, and Tailwind CSS. <br />What started as a personal

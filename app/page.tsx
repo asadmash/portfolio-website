@@ -16,7 +16,7 @@ import Aboutme from "@/components/Aboutme";
 
 const Home = () => {
   return (
-    <main className="relative w-screen bg-[#15181e] flex justify-center items-center flex-col overflow-hidden">
+    <main className="relative w-screen bg-[#15181e] flex justify-center items-center flex-col !overflow-hidden font-nunitoBold">
       {/* mx-auto sm:px-10 px-2 */}
       <SpeedInsights />
       <Analytics />
@@ -27,7 +27,7 @@ const Home = () => {
         <Experience />
         <Approch />
         <Footer />
-      <div className="max-w-7xl w-full">
+      <div className="max-w-7xl w-full overflow-hidden">
         <FloatingDockComp />
         {/* <FloatingNav navItems={navItems}/> */}
 

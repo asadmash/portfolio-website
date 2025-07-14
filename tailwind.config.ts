@@ -34,8 +34,12 @@ const config = {
 
        fontFamily: {
         jetbrains: ['var(--font-jetbrains-mono)', 'monospace'],
+         nunitoBold: ['var(--nunito-Bold)', 'sans-serif'],
+         nunitoRegular: ['var(--nunito-regular)', 'sans-serif'],
+         loraRegular: ['var(--lora-regular)', 'serif']
       },
 
+      
       colors: {
         black: {
           DEFAULT: "#000",

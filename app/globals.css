@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+overflow-x: hidden;
+
+}
 
 @layer base {
   :root {
@@ -90,6 +94,9 @@ html {
 
   .black-gradient {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+  }
+  p{
+    @apply font-nunitoRegular;
   }
 }
 

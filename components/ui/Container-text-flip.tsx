@@ -34,7 +34,8 @@ export function ContainerTextFlip({
     if (textRef.current) {
       // Add some padding to the text width (30px on each side)
       // @ts-ignore
-      const textWidth = textRef.current.scrollWidth + 30;
+      const textWidth = textRef.current.scrollWidth + 35;
+      // const textWidth = 300 + 60;
       setWidth(textWidth);
     }
   };
