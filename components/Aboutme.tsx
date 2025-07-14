@@ -16,10 +16,10 @@ const Aboutme = () => {
         <div className="flex flex-col md:flex-row py-0 px-5 gap-6 md:gap-15 xl:gap-20 w-full justify-between md:h-[80vh] mt-10">
           <Button
             borderRadius="1.75rem"
-            className="bg-white z-40 dark:bg-[#db0d0d]  border-neutral-200 dark:border-slate-800"
+            className="bg-white z-40 dark:bg-[#db0d0d]  border-neutral-200 dark:border-slate-800 md:max-w-[45vw]"
             duration={10000}
           >
-            <aside className="left flex-1 rounded-lg h-full">
+            <aside className="left flex-1 rounded-lg h-full w-full">
               <Image
                 src="/myImg2.jpg"
                 alt="profile"
