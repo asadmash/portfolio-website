@@ -12,7 +12,7 @@ export const Clients = () => {
       <div className="container">
         <h1 className="heading mb-10 !text-2xl sm:!text-3xl md:!text-4xl lg:!text-5xl">
         Kind words from
-        <span className="text-[#7459dc] "> satisfiend clients</span>
+        <span className="text-[#7459dc] "> satisfied clients</span>
       </h1>
       <div className="flex flex-col items-center max-lg:mt-10">
         {/* Infinity moving card component */}
