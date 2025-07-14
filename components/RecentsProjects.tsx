@@ -22,9 +22,9 @@ export const RecentsProjects = () => {
         </svg>
       </span>
       <div className="container mt-0 h-full w-full">
-        <p className="heading !text-3xl md:!text-5xl">
+        <p className="heading !text-3xl md:!text-4xl lg:!text-5xl">
           A small collection of{" "}
-          <span className="text-[#33beba]">recent projects</span>
+          <span className="text-[#3d74b6]">recent projects</span>
         </p>
         <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
           {projects.map(({ id, title, des, img, iconLists, link }) => (

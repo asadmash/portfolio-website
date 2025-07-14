@@ -12,7 +12,7 @@ export const Approch = () => {
       </span>
        <div className="container">
          <h1 className="heading">
-            My <span className="text-[#33beba]">approch</span>
+            My <span className="text-[#f5b17b]">approch</span>
         </h1>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card title="Planning and Strategy" icon={<AceternityIcon order="Phase 1"/>}

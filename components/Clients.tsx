@@ -10,9 +10,9 @@ export const Clients = () => {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F5B17B" fill-opacity="1" d="M0,96L80,112C160,128,320,160,480,149.3C640,139,800,85,960,69.3C1120,53,1280,75,1360,85.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
       </span>
       <div className="container">
-        <h1 className="heading mb-10">
+        <h1 className="heading mb-10 !text-2xl sm:!text-3xl md:!text-4xl lg:!text-5xl">
         Kind words from
-        <span className="text-[#33beba] "> satisfiend clients</span>
+        <span className="text-[#7459dc] "> satisfiend clients</span>
       </h1>
       <div className="flex flex-col items-center max-lg:mt-10">
         {/* Infinity moving card component */}

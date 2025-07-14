@@ -19,6 +19,21 @@ const jetbrainsMono = localFont({
   variable: "--font-jetbrains-mono",
   weight: "900",
 })
+const NunitoBold = localFont({
+  src: "./fonts/Nunito-Bold.ttf",
+  variable: "--nunito-bold",
+  weight: "900",
+})
+const NunitoRegular = localFont({
+  src: "./fonts/Nunito-Regular.ttf",
+  variable: "--nunito-regular",
+  weight: "400",
+})
+const LoraRegular = localFont({
+  src: "./fonts/Lora-Regular.ttf",
+  variable: "--lora-regular",
+  weight: "400",
+})
 
 export const metadata: Metadata = {
   title: "asadMash's portfolio",

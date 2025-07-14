@@ -13,7 +13,7 @@ export const Experience = () => {
       <div className="container">
         <h1 className="heading">
         My
-        <span className="text-[#33beba]"> work experience</span>
+        <span className="text-[#f05a7e]"> work experience</span>
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (
