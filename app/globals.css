@@ -92,3 +92,12 @@ html {
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+/* @keyframes slide-x {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(50%); }
+}
+
+.animate-slide-x {
+  animation: slide-x 10s linear infinite;
+} */
