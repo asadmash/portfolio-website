@@ -7,8 +7,8 @@ export function MeteorsDemo() {
       // bio text expend or not expend
   const [expanded, setExpanded] = useState(false);
   return (
-    <div className="max-h-full h-full">
-      <div className="relative w-full max-w-xl h-full">
+    <div className="max-h-full h-full md:max-w-[45vw] md:flex md:items-end md:justify-end">
+      <div className="relative w-full max-w-xl h-full md:self-end">
         <div className="absolute inset-0 h-full w-full scale-[0.80] transform rounded-full blur-3xl" />
         <div className="relative flex h-full flex-col items-start justify-end overflow-hidden rounded-2xl border border-gray-800 bg-[#1b1f27] px-4 py-8 shadow-xl">
 

@@ -30,7 +30,7 @@ const Aboutme = () => {
               />
             </aside>
           </Button>
-          <aside className="right flex-1 md:h-[80vh] z-40">
+          <aside className="right flex-1 md:h-[80vh] z-40 md:self-end">
             <MeteorsDemo />
             {/* Show button only on small screens */}
           </aside>
