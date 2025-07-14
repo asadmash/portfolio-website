@@ -45,7 +45,8 @@ export const RecentsProjects = () => {
                     <CardItem
                       translateZ="100"
                       className="w-full mt-4"
-                      rotateX={350}
+                      rotateX={-5}
+
                       // rotateZ={}
                     >
                       <Image
