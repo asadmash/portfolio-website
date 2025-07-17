@@ -113,16 +113,17 @@ export const RecentsProjects = () => {
               </Link>
             </>
           ))}
-
+        </div>
           {/* show more projects */}
-          <Link href="/works">
+          <div className="flex w-full h-auto items-center justify-center">
+            <Link href="/works">
             <MagicButton
               title="View all projects"
               icon={<FaLocationArrow />}
               position="right"
             />
           </Link>
-        </div>
+          </div>
       </div>
       <span className="absolute left-0 -bottom-1 w-full -z-10">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

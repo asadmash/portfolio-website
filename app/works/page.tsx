@@ -1,9 +1,11 @@
+import { FloatingDockComp } from "@/components/FloatingDockComp";
 import Works from "@/components/Works";
 
 const WorkPage = () => {
     return (
-      <main className="min-h-screen py-20 px-5  mx-auto text-white bg-black-100">
-        <Works></Works>
+      <main className="bg-[#15181e]">
+        <Works />
+          <FloatingDockComp />
       </main>
     );
   };

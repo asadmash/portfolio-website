@@ -115,7 +115,7 @@ export const navItems = [
       id: 1,
       title: "Animated Apple Iphone 3D Website",
       des: "Recreated the Apple iPhone 15 Pro Website, combining GSAP animations and Three.js 3D effects...",
-      img: "/p1.svg",
+      img: "/p1.png",
       imgWidth: "100%",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://iphone15-pro-apple.vercel.app",
