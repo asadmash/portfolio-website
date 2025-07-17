@@ -7,7 +7,7 @@ import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 export const Approch = () => {
   return (
     <section className=" py-20  z-10 relative w-screen">
-      <span className="absolute -z-10 left-0 top-0  w-full">
+      <span className="absolute -z-10 left-0 -top-1  w-full">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#F05A7E" fill-opacity="1" d="M0,160L80,138.7C160,117,320,75,480,85.3C640,96,800,160,960,208C1120,256,1280,288,1360,304L1440,320L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
       </span>
        <div className="container">
