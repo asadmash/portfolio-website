@@ -33,6 +33,8 @@ const Home = () => {
 
         {/* <Grid/> */}
       </div>
+
+     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f4ae8d3099c14b98a8a0e342f67be9d6"}'/>
     </main>
   );
 };
