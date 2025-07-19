@@ -21,7 +21,7 @@ const Aboutme = () => {
           >
             <aside className="left flex-1 rounded-lg h-full w-full md:max-w-[40vw]">
               <Image
-                src="/myImg2.jpg"
+                src="/myImg.png"
                 alt="profile"
                 width={800}
                 height={800}
